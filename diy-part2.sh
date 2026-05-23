@@ -43,7 +43,7 @@ git clone https://github.com/QiuSimons/luci-app-daed package/dae
 # 添加mosdns
 rm -rf feeds/packages/net/mosdns
 rm -rf feeds/luci/applications/luci-app-mosdns
-git clone https://github.com/QiuSimons/openwrt-mos package/mosdns
+git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
 
 # 添加podman 
 git clone --depth 1 --single-branch https://github.com/breeze303/openwrt-podman package/podman
