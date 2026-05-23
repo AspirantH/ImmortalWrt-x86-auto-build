@@ -40,6 +40,9 @@ rm -rf feeds/packages/net/daed
 rm -rf feeds/luci/applications/luci-app-daed
 git clone https://github.com/QiuSimons/luci-app-daed package/dae
 
+# 添加mosdns
+git clone https://github.com/QiuSimons/openwrt-mos package/mosdns
+
 # 添加podman 
 git clone --depth 1 --single-branch https://github.com/breeze303/openwrt-podman package/podman
 ./scripts/feeds install -a
