@@ -41,6 +41,8 @@ rm -rf feeds/luci/applications/luci-app-daed
 git clone https://github.com/QiuSimons/luci-app-daed package/dae
 
 # 添加mosdns
+rm -rf feeds/packages/net/mosdns
+rm -rf feeds/luci/applications/luci-app-mosdns
 git clone https://github.com/QiuSimons/openwrt-mos package/mosdns
 
 # 添加podman 
