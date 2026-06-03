@@ -50,5 +50,5 @@ git clone --depth 1 --single-branch https://github.com/breeze303/openwrt-podman 
 ./scripts/feeds install -a
 
 # 更换Geodata
-rm -rf feeds/packages/net/v2ray-geodata
-git clone https://github.com/laosan-xx/my-v2ray-geodata package/geodata
+# rm -rf feeds/packages/net/v2ray-geodata
+# git clone https://github.com/laosan-xx/my-v2ray-geodata package/geodata
