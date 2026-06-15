@@ -38,7 +38,7 @@ git clone https://github.com/VIKINGYFY/homeproxy package/homeproxy
 rm -rf feeds/packages/net/dae
 rm -rf feeds/packages/net/daed
 rm -rf feeds/luci/applications/luci-app-daed
-git clone https://github.com/QiuSimons/luci-app-daed package/dae
+git clone https://github.com/kenzok8/openwrt-daede package/daede
 
 # 添加mosdns
 rm -rf feeds/packages/net/mosdns
